@@ -27,21 +27,21 @@ const About = () => {
       title: "Select Menu Items",
       description: "Browse the menu, add your chosen dishes to the cart, and submit your pickup order.",
       icon: <ShoppingBag size={18} />,
-      image: IMAGES.ABOUT_KITCHEN
+      image: IMAGES.PICKUP_STEP_1
     },
     {
       step: "02",
       title: "Confirm Payment via GCash",
       description: "Submit your GCash payment and upload the transaction screenshot through your My Bill page. Your payment will be reviewed before the order proceeds to processing.",
       icon: <CheckCircle2 size={18} />,
-      image: IMAGES.INNOVATION_IMG
+      image: IMAGES.PICKUP_STEP_2
     },
     {
       step: "03",
       title: "Collect at the Counter",
       description: "Track your order status through your account. When your order is marked Ready for Pickup, present your Order ID at our Bulan store counter to collect your order.",
       icon: <Store size={18} />,
-      image: IMAGES.ABOUT_LOUNGE
+      image: IMAGES.PICKUP_STEP_3
     }
   ];
 

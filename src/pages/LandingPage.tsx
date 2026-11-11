@@ -59,12 +59,11 @@ const LandingPage = () => {
           </div>
 
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-black mb-6 tracking-tight text-dark leading-[1.05]">
-            Your Favorite <br />
-            <span className="text-primary">Chill Spot</span> in Bulan.
+            Food and <span className="text-primary">Drinks</span>
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl mb-10 max-w-2xl mx-auto text-dark/75 font-medium leading-relaxed">
-            Home of the best Sizzling Sisig and the coldest drinks. Order ahead online and pick up fresh and hot at your convenience.
+            Gip's Kitchen, also known as Paminggalan Disco, is a local food and beverage business located in Bulan, Sorsogon.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-md mx-auto w-full">

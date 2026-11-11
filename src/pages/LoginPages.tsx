@@ -2,6 +2,7 @@ import { useState, useContext, useEffect, useRef } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
+import { IMAGES } from '../constants/images';
 import { 
   Mail, 
   Lock, 
@@ -528,8 +529,20 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center p-4 sm:p-6">
-      <div className="bg-white rounded-xl w-full max-w-md border border-gray-200 overflow-hidden">
+    <div className="relative min-h-[calc(100vh-65px)] flex items-center justify-center p-4 sm:p-6 py-10 sm:py-16 overflow-hidden">
+      {/* Background Image & Contrast Overlay */}
+      <div className="absolute inset-0 pointer-events-none select-none z-0">
+        <img 
+          src={IMAGES.LOGIN_BG || '/assets/aistudio/1794405103963_4cb43210.jpg'} 
+          alt="Gip's Kitchen Night Atmosphere" 
+          className="w-full h-full object-cover object-center"
+        />
+        {/* Subtle dark backdrop overlay for enhanced contrast while keeping warm restaurant lights visible */}
+        <div className="absolute inset-0 bg-black/50 backdrop-blur-[1.5px]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30" />
+      </div>
+
+      <div className="relative z-10 bg-white rounded-2xl w-full max-w-md border border-gray-200/90 shadow-2xl overflow-hidden">
         
         {/* Navigation Tabs (Sign In / Sign Up) */}
         <div className="flex border-b border-gray-200 bg-gray-50 p-1.5 gap-1.5">

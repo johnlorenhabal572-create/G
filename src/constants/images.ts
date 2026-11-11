@@ -8,10 +8,16 @@ export const IMAGES = {
   // Logo & Branding
   LOGO: '/images/logo.png', // Official Gip's Kitchen Logo
   
-  // Landing Page
+  // Landing & Auth Pages
   HERO_BG: '/images/FB_IMG_1776126830971.jpg', // Place your hero-bg.jpg in public/images/
   INASAL_HERO: '/images/inasal_hero.jpg', // Inasal hero backdrop
   INNOVATION_IMG: '/images/Screenshot 2026-04-14 112014.png', // Place your innovation.jpg in public/images/
+  LOGIN_BG: '/assets/aistudio/1794405103963_4cb43210.jpg', // Gip's Kitchen night atmosphere backdrop
+  
+  // Store Pickup Steps (About Page)
+  PICKUP_STEP_1: '/assets/aistudio/Screenshot_20261111-213229_2_2e5d9ccf.jpg',
+  PICKUP_STEP_2: '/assets/aistudio/Screenshot_20261029-154119_c892072d.png',
+  PICKUP_STEP_3: '/assets/aistudio/FB_IMG_1776126740839_c1e29afc.jpg',
   
   // Gallery (Place these in public/images/)
   GALLERY_1: '/images/Sisig1.jpg',
@@ -28,8 +34,8 @@ export const IMAGES = {
   GALLERY_12: '/images/image.png',
   
   // About Page (Place these in public/images/)
-  ABOUT_KITCHEN: '/images/FB_IMG_1776127178528.jpg',
-  ABOUT_LOUNGE: '/images/FB_IMG_1776126569147.jpg',
+  ABOUT_KITCHEN: '/assets/aistudio/Screenshot_20261111-213229_2_2e5d9ccf.jpg',
+  ABOUT_LOUNGE: '/assets/aistudio/FB_IMG_1776126740839_c1e29afc.jpg',
   ABOUT_TEAM_1: '/images/FB_IMG_1776127183120.jpg',
   ABOUT_TEAM_2: '/images/FB_IMG_1776127180794.jpg',
   ABOUT_COMMITMENT: '/images/FB_IMG_1776126826990.jpg',
